@@ -12,7 +12,7 @@ define.txt  #用户自定义词汇表
 stop_words.txt  #停用词表  
 questions.txt  #用户历史输入句子信息  
 
-### 参数
+### 函数参数
 cal_dict('questions.txt',n) #n为n-grams的预测长度
 word_rec(word_freq,k) #k为最终推荐的预测词汇数量
 
