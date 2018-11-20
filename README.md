@@ -13,8 +13,8 @@ stop_words.txt  #停用词表
 questions.txt  #用户历史输入句子信息  
 
 ### 函数参数
-cal_dict('questions.txt',n) #n为n-grams的预测长度
-word_rec(word_freq,k) #k为最终推荐的预测词汇数量
+cal_dict('questions.txt',n) #n为n-grams的预测长度  
+word_rec(word_freq,k) #k为最终推荐的预测词汇数量  
 
 ### 输出样式为一个字典表，key为当前用户输入的最后一个词，values为下面最有可能出现的词汇列表，并且按照可能性大小做降序排列   
 
